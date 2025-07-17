@@ -1,7 +1,43 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1> Test Page </h1>
-<sub>Hosted on GitHub</sub>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mechanical Grey Flamingo</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #5d5d5d; /* Light gray background */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+
+      .image-container {
+        text-align: center;
+      }
+
+      img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .caption {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #e5b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="images/flamingo.png" alt="Mechanical" />
+      <div class="caption">What else did you expect?</div>
+    </div>
+  </body>
 </html>
